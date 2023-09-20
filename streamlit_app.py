@@ -6,3 +6,4 @@ import ezdxf
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
     doc = ezdxf.readfile(uploaded_file)
+    st.write(uploaded_file)
