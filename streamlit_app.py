@@ -3,8 +3,6 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
-import pyvista as pv
-import ezdxf as ez
 
 """
 # Welcome to Streamlit!
