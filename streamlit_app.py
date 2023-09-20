@@ -17,8 +17,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 
-with st.echo(code_location='below'):
-    file_uploader = st.file_uploader("Upload Blueprint File", ["dxf"])
-    if uploaded_file is not None:
-        print(stringio.read())
+file_uploader = st.file_uploader("Upload Blueprint File", ["dxf"])
+if uploaded_file is not None:
+    print(stringio.read())
         
